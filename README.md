@@ -82,7 +82,7 @@ If you intend to convert PDF documents, place the documents in the [PDF_files](c
     * **corpora/corpus_B/disease_abbreviations/**
     * **corpora/corpus_B/disease_synonyms/**
     * **corpora/corpus_B/final_annotations_corpus_B/**
-    * __corpora/corpus_B/relations_corpus_A.tsv__
+    * __corpora/corpus_B/relations_corpus_B.tsv__
 
 ## Configuration
 
