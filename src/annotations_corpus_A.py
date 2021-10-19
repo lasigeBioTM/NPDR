@@ -825,6 +825,7 @@ def main():
              phenotype annotations, and a file with negative relations between the annotated diseases and human phenotype
     """
 
+    os.system('mkdir -p corpora/corpus_A/ || true')
     os.system('mkdir -p corpora/corpus_A/phenotypes || true')
     os.system('mkdir -p corpora/corpus_A/phenotype_synonyms || true')
     os.system('mkdir -p corpora/corpus_A/abstract_genes || true')
