@@ -10,7 +10,7 @@ In order to automatically annotate the entities mentioned in the NPDR dataset an
 * Python >= 3.8
 
 * Pre-processing:
-    * [PDFMiner] (https://github.com/pdfminer/pdfminer.six)
+    * [PDFMiner](https://github.com/pdfminer/pdfminer.six)
     * [Genia Sentence Splitter](http://www.nactem.ac.uk/y-matsu/geniass/)
     
 * Term Recognition:
