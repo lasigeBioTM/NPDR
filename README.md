@@ -1,18 +1,16 @@
-# NPDR: A Negative Phenotype-Disease Relations dataset
+# NPDR: A Dataset of Negative Human Phenotype-Disease Relations
 
-The Negative Phenotype-Disease Relations (NPDR) dataset describes a subset of negative disease-phenotype relations from a [gold-standard knowledge base](http://purl.obolibrary.org/obo/hp/hpoa/phenotype_annotation_negated.tab) made available by the Human Phenotype Ontology. 
+The Negative Phenotype-­Disease Relations (NPDR) dataset describes a subset of negative disease­-phenotype relations from a gold­-standard knowledge base made available by the Human Phenotype Ontology (http://purl.obolibrary.org/obo/hp/hpoa/phenotype_annotation_negated.tab). 
+The NPDR dataset was constructed by analysing 177 medical documents, and consists of 347 manually annotated at the document­-level relations, from which 222 are inferred from the HPO gold­-standard knowledge base, and 125 are new annotated relations. 
 
-The NPDR dataset was constructed by analysing 177 medical documents, and consists of 347 manually annotated at the document-level relations, from which 222 were inferred from the HPO gold-standard knowledge base, and 125 are new annotated relations. 
+In order to automatically annotate the entities mentioned in the NPDR dataset and extract their negative relations, an automatic extraction system was developed. If you intend to annotate entities using the lexica generated from the NPDR dataset and extract negative relations from biomedical documents, you can follow the below guidelines.
 
-In order to automatically annotate the entities mentioned in the NPDR dataset and extract their negative relations, an automatic extraction system was developed. 
-If you intend to annotate entities using the lexica generated from the NPDR dataset and extract negative relations from biomedical documents, you can follow the below guidelines.
-
-## Dependencies 
+## Dependencies
 
 * Python >= 3.8
 
 * Pre-processing:
-    * [PDF Miner](https://github.com/pdfminer/pdfminer.six)
+    * [PDFMiner] (https://github.com/pdfminer/pdfminer.six)
     * [Genia Sentence Splitter](http://www.nactem.ac.uk/y-matsu/geniass/)
     
 * Term Recognition:
@@ -20,7 +18,8 @@ If you intend to annotate entities using the lexica generated from the NPDR data
         
 * Relation Extraction:
     * [Human Phenotype Ontology Gold Standard Negative Relations](http://purl.obolibrary.org/obo/hp/hpoa/phenotype_annotation_negated.tab) (Knowledge Base)
-
+    
+    
 ## Getting Started
 
 ````
@@ -35,18 +34,17 @@ git clone https://github.com/lasigeBioTM/MER
 ## Preparing the Biomedical Documents
 
 There are two approaches that can be used to gather the biomedical documents:
-1. By automatically retrieving PubMed articles using the [Entrez Programming Utilities (E-utilities) program](https://www.ncbi.nlm.nih.gov/books/NBK25501/). 
-2. By converting PDF articles into machine-readable text format using the [PDFMiner text converter tool](https://github.com/pdfminer/pdfminer.six).
+1. By automatically retrieving PubMed articles using the [Entrez Programming Utilities (E-utilities) program] (https://www.ncbi.nlm.nih.gov/books/NBK25501/) ([Corpus A](corpora(corpus_A/)). 
+2. By converting PDF articles into machine-readable text format ([Corpus B]((corpora/corpus_B/)).
 
 If you intend to automatically retrieve the biomedical documents run:
 ````
  python3 src/pubmed.py
 ````
-
 * Creates: 
     * **corpora/corpus_A/articles**
-    * **corpora/corpus_A/abstracts**   
-    
+    * **corpora/corpus_A/abstracts**    
+
 If you intend to convert PDF documents, place the documents in the [PDF_files] (corpora/corpus_B/PDF_files/) and run:
 ````
  python3 src/pdf2text.py
@@ -101,6 +99,7 @@ If you intend to convert PDF documents, place the documents in the [PDF_files] (
     * **geniass/**
     
 * ### corpora/
+
     * **MER/**
         * **data/**
             * __diseaseabbreviations.txt__

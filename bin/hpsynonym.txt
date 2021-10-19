@@ -1,0 +1,165 @@
+ALS
+B cells
+BAEP
+CPK
+EMG
+GM-CSF auto-antibody
+HCM
+NK cells
+T cells
+abnormalities of skin pigmentation
+acute burning on minimal sun exposure
+aldosterone concentration
+alkaline phosphatase
+anomalies in urinary tract
+anomaly of the limbs
+antibodies to acetylcholine receptor
+apparent intelligence
+atrophy
+autism spectrum disorders
+autistic symptoms
+b-lymphocyte subset
+basal ganglia degeneration
+beaking
+bilirubin concentration
+bleeding time
+blood glucose
+bone density
+bone spicule pigmentation
+both thumbs
+cardiac disease
+cd4+ t-lymphocyte subset
+cd8+ t-lymphocyte subset
+cerebellar degeneration
+cloverleaf
+cochlea
+cognitive disturbances
+cognitive functions
+colour vision
+conduction velocities
+cone-rod distrophy
+creatinine cocentration
+decreased vibration or position sense
+deep tendon reflexes
+dentin defects
+dentition
+development of external genitalia and bilateral testicular
+developmental delay
+differential white cell count
+dysmorphic facial features
+dysmorphic features
+dysmotile or immotile cilia
+elevated serum alkaline phosphatase
+elevated triglycerides
+eosinophil count
+exercise stress tests
+eyebrows
+eyelashes
+eyes
+facial dysmorphisms
+facial features
+fluorescein angiography
+folate level
+foot anomalies
+full-field electroretinogram
+fungal infections
+gross motor development
+gross vestibular involvement
+growth and development
+growth defect
+haemolysis,abnormality of erythrocyte morphology
+hair
+hearing
+hemolytic anemia
+hypertrophic cardiomyopathy
+immunoglobulin levels
+impaired balance
+impairment in night vision
+increased freckle-like pigmentation
+inner ear malformations
+intellectual deficiency
+intelligence
+intolerance to heat
+iron deficiency
+iron saturation
+lactate
+leukocyte count
+menstrual cycles
+morphological feature
+morphological renal anomalies
+motor disability
+motor disturbances
+muscle abnormalities
+muscular
+nail
+nail abnormalities
+nails
+nervous system
+neurological problems
+neurological symptoms
+neuromotor development
+night blindness
+nk-lymphocyte subset
+pits on the palm
+plasma creatine kinase activity
+platelet aggregation
+platelet count
+platelets
+polyvalvular dysplasia
+preaxial PD
+prolongation of the QT interval
+psychiatric or behavioural disturbances
+pulmonary valve stenosis
+relax fast-twitch skeletal muscles
+renal
+renal anomalies
+renal function
+renin concentration
+resting ECG
+retardation
+reticulocyte count
+retinal dysfunction
+retinal layer structures
+sebaceous glands
+sensation
+sensory symptoms
+serum Ig levels
+serum alkaline phosphatase
+serum folate level
+serum transferrin saturation
+sex hormone levels
+shape of teeth
+situs inversus
+situs solitus
+size of megakaryocytes
+skeletal abnormalities
+skeleton
+skin anomalies
+spasmodic torticollis
+sun-sensitive skin
+sweat function
+sweat glands
+sweating
+syndrome
+teeth
+testosterone
+thyroid and adrenal function
+tracheal anomalies
+vestibular
+vestibular complaints
+vestibular defects
+vestibular deficits
+vestibular disorder
+vestibular function
+vestibular reflexes
+vestibular symptoms
+vestivular involvement
+viral infection
+viral infections
+vision
+vision problems
+visual
+visual acuity
+visual loss
+visual problem
+white blood cells
