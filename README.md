@@ -19,7 +19,6 @@ In order to automatically annotate the entities mentioned in the NPDR dataset an
 * Relation Extraction:
     * [Human Phenotype Ontology Gold Standard Negative Relations](http://purl.obolibrary.org/obo/hp/hpoa/phenotype_annotation_negated.tab) (Knowledge Base)
     
-    
 ## Getting Started
 
 ````
