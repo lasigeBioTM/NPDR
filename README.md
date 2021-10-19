@@ -34,8 +34,8 @@ git clone https://github.com/lasigeBioTM/MER
 ## Preparing the Biomedical Documents
 
 There are two approaches that can be used to gather the biomedical documents:
-1. By automatically retrieving PubMed articles using the [Entrez Programming Utilities (E-utilities) program] (https://www.ncbi.nlm.nih.gov/books/NBK25501/) ([Corpus A](corpora/corpus_A/)). 
-2. By converting PDF articles into machine-readable text format ([Corpus B](corpora/corpus_B/)).
+1. By automatically retrieving PubMed articles using the [Entrez Programming Utilities (E-utilities) program] (https://www.ncbi.nlm.nih.gov/books/NBK25501/) ([Corpus A](https://github.com/lasigeBioTM/NPDR/corpora/corpus_A/)). 
+2. By converting PDF articles into machine-readable text format ([Corpus B](https://github.com/lasigeBioTM/NPDR/corpora/corpus_B/)).
 
 If you intend to automatically retrieve the biomedical documents run:
 ````
