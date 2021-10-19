@@ -45,7 +45,7 @@ If you intend to automatically retrieve the biomedical documents run:
     * **corpora/corpus_A/articles**
     * **corpora/corpus_A/abstracts**    
 
-If you intend to convert PDF documents, place the documents in the [PDF_files] (corpora/PDF_files/) directory and run:
+If you intend to convert PDF documents, place the documents in the [PDF_files](corpora/PDF_files/) directory and run:
 ````
  python3 src/pdf2text.py
 ````
