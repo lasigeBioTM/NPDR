@@ -1,3 +1,11 @@
+"""
+@author: horta-trc
+
+The phenotype_annotations, *_disease_annotations, *_gene_annotations, *_disease_abbreviation_annotations, *_disease_synonym_annotations and
+relations_annotations functions were adapted from annotations.py available here:
+https://github.com/lasigeBioTM/PGR/tree/master/src
+"""
+
 import os
 
 ############################################
