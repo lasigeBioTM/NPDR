@@ -1,9 +1,15 @@
+"""
+@author: horta-trc
+
+The get_pmcids, write_abstract, write_body and divided_by_sentences functions were adapted from pubmed_corpus.py available here:
+https://github.com/lasigeBioTM/PGR/tree/master/src
+"""
+
 import os
 import subprocess
 import sys
 from polyglot.detect import Detector
 import re
-
 
 ############################################
 #         PMID TO PMCID CONVERSION         #
