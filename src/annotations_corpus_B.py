@@ -588,7 +588,7 @@ def main():
 
     os.chdir('../corpus_B/')
     sort_annotations_files('disease_abbreviations/', 'disease_synonyms/', 'diseases/', 'genes/', 'phenotype_synonyms/', 'phenotypes/', 'final_annotations/')
-    relations_annotations('negation_in_articles/', 'phenotype_annotation_negated.txt', 'final_annotations/', 'relations_corpus_B.tsv')
+    relations_annotations('negation_in_articles/', 'data/phenotype_annotation_negated.txt', 'final_annotations/', 'relations_corpus_B.tsv')
 
 
     return
