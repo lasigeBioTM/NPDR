@@ -480,7 +480,7 @@ def relations_annotations(negation_path, gold_standard_file, annotations_path, d
              and a string with the number of true and false relations between disease and phenotype annotations
     """
 
-    hpo_dict = hpo_dict(gold_standard_file)
+    dict_hpo = hpo_dict(gold_standard_file)
 
     relations_file = open(destination_path, 'w', encoding = 'utf-8')
     relations_file.write('FILE_ID\tSENTENCE\tDISEASE\tPHENOTYPE\tDISEASE_ID\tPHENOTYPE_ID\tDISEASE_START_POSITION\tDISEASE_END_POSITION\tPHENOTYPE_START_POSITION\tPHENOTYPE_END_POSITION\tRELATION\n')
@@ -532,7 +532,7 @@ def relations_annotations(negation_path, gold_standard_file, annotations_path, d
 
                         for disease_name, disease_id, disease_first, disease_last in disease_annotations_list:
 
-                            if disease_id in dict_pd and phenotype_id in hpo_dict[disease_id]:
+                            if disease_id in dict_hpo and phenotype_id in dict_hpo[disease_id]:
 
                                 relation = 'True'
 
