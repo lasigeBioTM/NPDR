@@ -1,7 +1,7 @@
 # NPDR: A Dataset of Negative Human Phenotype-Disease Relations
 
 The Negative Phenotype-Disease Relations (NPDR) dataset describes a subset of negative disease-phenotype relations from a [gold-standard knowledge base](http://purl.obolibrary.org/obo/hp/hpoa/phenotype_annotation_negated.tab) made available by the Human Phenotype Ontology. 
-The NPDR dataset was constructed by analysing 177 medical documents, and consists of 347 manually annotated at the document-level relations, from which 222 are inferred from the HPO gold-standard knowledge base, and 125 are new annotated relations. The dataset is available [here](data/NPDR_dataset.csv).
+The NPDR dataset was constructed by analysing 177 medical documents, and consists of 347 manually annotated at the document-level relations, from which 222 are inferred from the HPO gold-standard knowledge base, and 125 are new annotated relations. The dataset is available [here](data/NPDR.csv).
 
 In order to automatically annotate the entities mentioned in the NPDR dataset and extract their negative relations, an automatic extraction system was developed. If you intend to annotate entities using the lexica generated from the NPDR dataset and extract negative relations from biomedical documents, you can follow the below guidelines.
 
