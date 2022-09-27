@@ -118,9 +118,10 @@ def main():
     :return: directory with a file for each article
     """
 
+    os.system('mkdir -p corpus_B/articles || true')
     os.system('mkdir -p intermediary_corpus || true')
     get_pdf_file_content('PDF_files/', 'intermediary_corpus/')
-    edit_text('intermediary_corpus/', 'corpus_B/')
+    edit_text('intermediary_corpus/', 'corpus_B/articles/')
     os.system('rm -rf intermediary_corpus/')
 
     return
