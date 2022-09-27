@@ -693,15 +693,15 @@ def sort_annotations_files(abstract_disease_abbreviations_path, abstract_disease
 #  HPO GOLD STANDARD NEGATION FILE DICTIONARY  #
 ################################################
 
-def hpo_dict(hpo_file, dict_type = None):
+def hpo_dict(gold_standard_file, dict_type = None):
     """Creates a dictionary of type {disease1:[phenotype1, phenotype2, ...], }
 
-    :param hpo_file: hpo gold standard file with negative relations disease to phenotype
+    :param gold_standard_file: hpo gold standard file with negative relations disease to phenotype
     :param dict_type: dict_type to create a dict with the names (default) or ids of the diseases and respective phenotypes
     :return: dict with the names or ids of type {disease1:[phenotype1, phenotype2, ...], }
     """
 
-    disease2phenotype = open(file_d2p, 'r')
+    disease2phenotype = open(gold_standard_file, 'r')
     disease2phenotype.readline()
     relations_d2p = disease2phenotype.readlines()
     relations_d2p.pop()
@@ -839,6 +839,8 @@ def main():
     os.system('mkdir -p corpora/corpus_A/article_disease_synonyms || true')
     os.system('mkdir -p corpora/corpus_A/final_annotations || true')
     os.system('mkdir -p corpora/corpus_A/negation_in_articles || true')
+    
+    detect_negation('corpus_A/articles/', 'corpus_A/negation_in_articles/')
 
     os.chdir('../bin/MER/')
     os.system('cd data; wget http://purl.obolibrary.org/obo/hp.owl')
